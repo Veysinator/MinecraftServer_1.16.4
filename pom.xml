@@ -1,4 +1,5 @@
-  <dependencies>
+<project>  
+<dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
@@ -18,3 +19,4 @@
     <finalName>helloworld</finalName>
   </configuration>
 </plugin>
+</project>
