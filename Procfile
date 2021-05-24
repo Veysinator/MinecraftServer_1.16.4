@@ -1,1 +1,1 @@
-worker: java -Xmx2048M -Xms2048M -jar server.jar nogui
+worker: java -Xmx2048M -Xms2048M -Dserver.port=$PORT -jar server.jar nogui
