@@ -1,3 +1,14 @@
+<project>
+    <plugin>
+  <artifactId>maven-assembly-plugin</artifactId>
+  <version>3.0.0</version>
+  <configuration>
+    <descriptorRefs>
+      <descriptorRef>jar-with-dependencies</descriptorRef>
+    </descriptorRefs>
+    <finalName>helloworld</finalName>
+  </configuration>
+</plugin>
 <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -8,3 +19,4 @@
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     </dependencies>
+</project>
